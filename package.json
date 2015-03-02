@@ -1,0 +1,17 @@
+{
+  "name": "trees-demo",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phoenixstormcrow/demos/tree/master/trees"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jshint": "^1.8.5",
+    "watchify": "^2.0.0",
+    "gulp-util": "^3.0.1",
+    "vinyl-source-stream": "^1.0.0",
+    "browserify": "^6.1.0",
+    "fs-extra": "^0.12.0"
+  }
+}
