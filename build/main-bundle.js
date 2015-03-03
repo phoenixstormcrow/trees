@@ -27,8 +27,8 @@ module.exports = function animation(canvas, model) {
             this.paused = true;
 
             /* set up the canvas */
-            this.displayCanvas.width = window.innerWidth;
-            this.displayCanvas.height = window.innerHeight;
+//            this.displayCanvas.width = window.innerWidth;
+//            this.displayCanvas.height = window.innerHeight;
 
             this.canvas = document.createElement('canvas'); // off-screen canvas
             this.context = this.canvas.getContext('2d');
