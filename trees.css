@@ -1,0 +1,43 @@
+html {
+}
+
+body {
+  background-color: black;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  padding: 0 5em;
+  position: fixed;
+  overflow: hidden;
+
+}
+
+section {
+  width: 50%;
+  position: relative;
+  font-family: sans;
+  margin-top: 5em;
+  font-size: 125%;
+}
+
+canvas {
+  background-color: black;
+  margin: auto;
+  margin-right: 5em;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+footer {
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 100%;
+  height: 5em;
+  background: linear-gradient( 0deg, black, black 60%, rgba(0, 0, 0, 0.0));
+}
+
+footer p {
+  float: right;
+  margin: 3em 5em 1em auto;
+  color: rgba(255, 255, 255, 0.5);
+}
