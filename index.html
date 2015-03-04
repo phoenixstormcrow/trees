@@ -19,13 +19,15 @@
     <script src='build/main-bundle.js'></script>
     <script>
     /* scroll text on key down and wheel*/
+    (function () {
     var elem = document.querySelector('.scroll');
     var elemTop = 0;
     function scroll(e) {
-      if (e.keyIdentifier === 'Down' || e.deltaY < 0) {
+      var key = e.key || e.keyIdentifier;
+      if (key === 'Down' || e.deltaY < 0) {
         --elemTop;
       }
-      if (e.keyIdentifier === 'Up' || e.deltaY > 0) {
+      if (key === 'Up' || e.deltaY > 0) {
         if (elemTop === 0) {
           return;
         }
@@ -35,6 +37,7 @@
     }
     document.addEventListener('keydown', scroll);
     document.addEventListener('wheel', scroll);
+    })();
     </script>
   </body>
 </html>
